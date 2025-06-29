@@ -76,3 +76,23 @@ nav a:hover {
   background-color: #00c6a3;
   color: #111;
 }
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.06);
+  line-height: 1.8;
+  font-size: 1.05rem;
+}
+
+.about-container a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.about-container a:hover {
+  text-decoration: underline;
+}

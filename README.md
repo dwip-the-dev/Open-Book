@@ -26,9 +26,12 @@
 2. Push your changes
 3. I'll review and merge it **ASAP**
 
+*NOTE*
+You may add a different subdirectory under the books directory for better organized file structure.
+
 ## 🎯 Coming Soon
 
-- 🔍 Search & filter by title/author
+- 🔍 Search & filter by author
 - 📊 View/download counter
 - 💬 Comment & rating system (maybe)
 - 🖼️ Light/Dark mode toggle

@@ -11,8 +11,7 @@ fetch('books/metadata.json')
       bookDiv.innerHTML = `
         <h2>${book.title}</h2>
         <p><strong>Author:</strong> ${book.author}</p>
-        <a href="books/${book.file}" download target="_blank">📥 Download from Site</a>
-        <a href="${book.link}" target="_blank">🌐 Download from Source</a>
+        <a href="books/${book.file}" download target="_blank">📥 Download PDF</a>
       `;
 
       container.appendChild(bookDiv);

@@ -145,14 +145,3 @@ nav a:hover {
 .other-links-container a:hover {
   text-decoration: underline;
 }
-
-footer {
-  text-align: center;
-  margin-top: 3rem;
-  padding: 1rem;
-  background-color: #222;
-  color: #fff;
-  border-radius: 10px;
-  font-size: 0.9rem;
-  box-shadow: 0 -2px 10px rgba(0,0,0,0.2);
-}

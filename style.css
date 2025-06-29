@@ -1,0 +1,51 @@
+
+body {
+  font-family: sans-serif;
+  background: #f4f4f4;
+  color: #333;
+  padding: 2rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto 2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.book {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.book h2 {
+  margin: 0 0 0.3rem;
+}
+
+.book a {
+  display: inline-block;
+  margin-top: 0.5rem;
+  color: white;
+  background: #007bff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.book a:hover {
+  background: #0056b3;
+}

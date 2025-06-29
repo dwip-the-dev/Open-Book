@@ -1,7 +1,7 @@
 # 📚 OpenBook — Curated Free PDF Library
 
 ![Netlify Status](https://img.shields.io/netlify/YOUR-NETLIFY-SITE-ID?style=for-the-badge&color=green)
-![License](https://img.shields.io/badge/License%3F-MIT-green?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Built with HTML](https://img.shields.io/badge/Built%20With-HTML%20%7C%20CSS%20%7C%20JS-blue?style=for-the-badge)
 ![Maintained](https://img.shields.io/badge/Maintained%3F-Yes-brightgreen?style=for-the-badge)
 

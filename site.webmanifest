@@ -3,7 +3,7 @@
   "short_name": "OpenBook",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#f4f4f4",
+  "background_color": "#ffffff",
   "theme_color": "#222222",
   "icons": [
     {

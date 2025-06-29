@@ -117,3 +117,31 @@ nav a:hover {
 .contact-container a:hover {
   text-decoration: underline;
 }
+
+
+.other-links-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.06);
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.other-links-container ul {
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+  list-style: square;
+}
+
+.other-links-container a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.other-links-container a:hover {
+  text-decoration: underline;
+}

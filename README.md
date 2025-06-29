@@ -1,6 +1,6 @@
 # 📚 OpenBook — Curated Free PDF Library
 
-![Netlify Status](https://img.shields.io/netlify/YOUR-NETLIFY-SITE-ID?style=for-the-badge&color=green)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/44500a7a-cf6b-497f-a808-590d810a35f5/deploy-status)](https://app.netlify.com/projects/opnbook/deploys)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Built with HTML](https://img.shields.io/badge/Built%20With-HTML%20%7C%20CSS%20%7C%20JS-blue?style=for-the-badge)
 ![Maintained](https://img.shields.io/badge/Maintained%3F-Yes-brightgreen?style=for-the-badge)
@@ -18,8 +18,7 @@
 
 ## 🚀 Live Website
 
-🌐 [https://openbook-demo.netlify.app](https://openbook-demo.netlify.app)  
-*(Replace with your own Netlify link after deploy)*
+🌐 [https://opnbook.netlify.app](https://opnbook.netlify.app)  
 
 ## ✍️ How to Add Books
 

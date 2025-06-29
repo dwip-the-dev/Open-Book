@@ -1,4 +1,3 @@
-```
 # 📚 OpenBook — Curated Free PDF Library
 
 ![Netlify Status](https://img.shields.io/netlify/YOUR-NETLIFY-SITE-ID?style=for-the-badge&color=green)
@@ -8,7 +7,7 @@
 
 > ⚠️ **Disclaimer**: All PDFs shared on this site are publicly available on the internet. No pirated or copyrighted material is hosted directly. This site simply curates and organizes links for educational use only.
 
-## 🧠 About
+## ✏️ About
 
 **OpenBook** is a lightweight, static website where **I personally upload and share PDF books** that are already freely accessible online.
 
@@ -24,8 +23,9 @@
 
 ## ✍️ How to Add Books
 
-1. Add the **book pdf** to /books/ 
-2. And push the change and i will merge it **ASAP**
+1. Add the **book PDF** to `/books/` directory
+2. Push your changes
+3. I'll review and merge it **ASAP**
 
 ## 🎯 Coming Soon
 
@@ -43,5 +43,3 @@ You're free to use, modify, and share this — just give credit.
 
 > 😎 Dwip — [@dwip-the-dev](https://github.com/dwip-the-dev)  
 > Curated with 💀 energy and 💖 passion.
-
----

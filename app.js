@@ -1,4 +1,3 @@
-
 fetch('books/metadata.json')
   .then(res => res.json())
   .then(data => {
@@ -11,12 +10,13 @@ fetch('books/metadata.json')
       bookDiv.innerHTML = `
         <h2>${book.title}</h2>
         <p><strong>Author:</strong> ${book.author}</p>
-        <a href="books/${book.file}" download target="_blank">📥 Download PDF</a>
+        <a href="${book.link}" download="${book.file}" target="_blank" rel="noopener noreferrer">📥 Download PDF</a>
       `;
 
       container.appendChild(bookDiv);
     });
 
+    // 🔍 Live search support
     const searchBox = document.getElementById("search");
     searchBox.addEventListener("input", () => {
       const query = searchBox.value.toLowerCase();
@@ -25,4 +25,8 @@ fetch('books/metadata.json')
         div.style.display = isVisible ? "block" : "none";
       });
     });
+  })
+  .catch(err => {
+    console.error("Failed to load metadata:", err);
+    document.getElementById("book-list").innerHTML = "<p>⚠️ Failed to load book list. Please try again later.</p>";
   });

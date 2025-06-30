@@ -29,6 +29,9 @@
 *NOTE*
 You may add a different subdirectory under the books directory for better organized file structure.
 
+## Secondary File Storage
+If you want you can use the [secondary repository](https://github.com/dwip-the-dev/cdn-OpenBook) to put your books in the same /books/foldername format. It is highly recommended to use the secondary storage now to avoid getting rate limited or bandwidth limited by GitHub or GitLFS.
+
 ## 🎯 Coming Soon
 
 - 🔍 Search & filter by author/title ☑️(Done. Feature Implimented)

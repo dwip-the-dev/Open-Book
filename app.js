@@ -1,21 +1,32 @@
-const categories = [
-  { name: "📖 Classics", path: "books/Classics" },
-  { name: "💻 Tech", path: "books/Tech" },
-  { name: "👶 Children Books", path: "books/children_book" },
-  { name: "🩸 Berserk Manga", path: "books/berserk-manga" },
-  { name: "🆕 New Uploads", path: "books/new" }
-];
+// Get the current folder based on the URL
+const currentFolder = location.pathname
+  .split("/")
+  .filter(part => part.trim() !== "")
+  .slice(-1)[0]
+  .replace(".html", "");
 
-const container = document.getElementById("category-list");
+const metadataPath = `books/${currentFolder}/metadata.json`;
 
-categories.forEach(cat => {
-  const div = document.createElement("div");
-  div.className = "category-card";
+fetch(metadataPath)
+  .then(res => res.json())
+  .then(data => {
+    const container = document.getElementById("book-list");
 
-  div.innerHTML = `
-    <h2>${cat.name}</h2>
-    <a href="${cat.path}/index.html">📂 Open Category</a>
-  `;
+    data.forEach(book => {
+      const bookDiv = document.createElement("div");
+      bookDiv.className = "book";
 
-  container.appendChild(div);
-});
+      bookDiv.innerHTML = `
+        <h2>${book.title}</h2>
+        <p><strong>Author:</strong> ${book.author}</p>
+        <a href="${book.link}" download target="_blank" rel="noopener noreferrer">📥 Download</a>
+      `;
+
+      container.appendChild(bookDiv);
+    });
+  })
+  .catch(err => {
+    console.error("❌ Failed to load metadata:", err);
+    document.getElementById("book-list").innerHTML =
+      "<p>⚠️ Couldn't load book list. Check metadata.json or path.</p>";
+  });

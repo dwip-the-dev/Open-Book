@@ -1,5 +1,10 @@
 [
   {
+    "name": "New Arrivals",
+    "description": "Freshly added books across categories.",
+    "link": "new.html"
+  },
+  {
     "name": "Agile Methodologies",
     "description": "Scrum, Kanban, and Agile practice guides.",
     "link": "Agile_Methodologies.html"
@@ -29,10 +34,10 @@
     "description": "Fun and illustrated books for kids.",
     "link": "children_book.html"
   },
-  {
-    "name": "New Arrivals",
-    "description": "Freshly added books across categories.",
-    "link": "new.html"
+    {
+    "name": "Chainsaw Man Manga",
+    "description": "The legend manga by Tatsuki Fujimoto",
+    "link": "chainsaw-man.html"
   },
   {
     "name": "Tech Books",

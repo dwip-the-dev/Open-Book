@@ -2284,5 +2284,25 @@
     "title": "A new Lean Six Sigma framework for improving competitiveness",
     "author": "Iris Bento da Silva",
     "link": "books/Agile_Methodologies/50.%20A%20new%20Lean%20Six%20Sigma%20framework%20for%20improving%20competitiveness%20Author%20Iris%20Bento%20da%20Silva.pdf"
+  },
+  {
+    "folder": "books/berserk-manga",
+    "title": "Berserk Manga Collection",
+    "type": "Directory",
+    "description": "Complete manga volumes of Berserk. Dark, gritty, and legendary. 🗡️⚔️",
+    "link": "https://github.com/dwip-the-dev/Open-Book/tree/main/books/berserk-manga"
+  },
+  {
+    "folder": "books/children_book",
+    "title": "Children's Book Collection",
+    "description": "A variety of children's stories and learning books. 🧒📘",
+    "link": "https://github.com/dwip-the-dev/Open-Book/tree/main/books/children_book"
+  },
+  {
+    "folder": "books/new",
+    "title": "New Book Drops (8× Enhanced 🚀)",
+    "type": "Directory",
+    "description": "Recently added books, fully cleaned, tagged, and curated for quality. 💯📚",
+    "link": "https://github.com/dwip-the-dev/Open-Book/tree/main/books/new"
   }
 ]

@@ -31,7 +31,7 @@ You may add a different subdirectory under the books directory for better organi
 
 ## 🎯 Coming Soon
 
-- 🔍 Search & filter by author
+- 🔍 Search & filter by author/title ☑️(Done. Feature Implimented)
 - 📊 View/download counter
 - 💬 Comment & rating system (maybe)
 - 🖼️ Light/Dark mode toggle

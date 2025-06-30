@@ -1,32 +1,21 @@
-fetch('books/metadata.json')
-  .then(res => res.json())
-  .then(data => {
-    const container = document.getElementById("book-list");
+const categories = [
+  { name: "📖 Classics", path: "books/Classics" },
+  { name: "💻 Tech", path: "books/Tech" },
+  { name: "👶 Children Books", path: "books/children_book" },
+  { name: "🩸 Berserk Manga", path: "books/berserk-manga" },
+  { name: "🆕 New Uploads", path: "books/new" }
+];
 
-    data.forEach(book => {
-      const bookDiv = document.createElement("div");
-      bookDiv.className = "book";
+const container = document.getElementById("category-list");
 
-      bookDiv.innerHTML = `
-        <h2>${book.title}</h2>
-        <p><strong>Author:</strong> ${book.author}</p>
-        <a href="${book.link}" download="${book.file}" target="_blank" rel="noopener noreferrer">📥 Download PDF</a>
-      `;
+categories.forEach(cat => {
+  const div = document.createElement("div");
+  div.className = "category-card";
 
-      container.appendChild(bookDiv);
-    });
+  div.innerHTML = `
+    <h2>${cat.name}</h2>
+    <a href="${cat.path}/index.html">📂 Open Category</a>
+  `;
 
-    // 🔍 Live search support
-    const searchBox = document.getElementById("search");
-    searchBox.addEventListener("input", () => {
-      const query = searchBox.value.toLowerCase();
-      document.querySelectorAll(".book").forEach(div => {
-        const isVisible = div.innerText.toLowerCase().includes(query);
-        div.style.display = isVisible ? "block" : "none";
-      });
-    });
-  })
-  .catch(err => {
-    console.error("Failed to load metadata:", err);
-    document.getElementById("book-list").innerHTML = "<p>⚠️ Failed to load book list. Please try again later.</p>";
-  });
+  container.appendChild(div);
+});

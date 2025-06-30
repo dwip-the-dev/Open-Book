@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Agile Methodologies",
+    "description": "Scrum, Kanban, and Agile practice guides.",
+    "link": "Agile_Methodologies.html"
+  },
+  {
+    "name": "Classics",
+    "description": "Timeless masterpieces of literature.",
+    "link": "classics.html"
+  },
+  {
+    "name": "Goosebumps Collection",
+    "description": "All 62 books by R.L. Stine, complete collection.",
+    "link": "goosebumps.html"
+  },
+  {
+    "name": "Sherlock Holmes",
+    "description": "The complete Sherlock Holmes stories.",
+    "link": "sherlock.html"
+  },
+  {
+    "name": "Berserk Manga",
+    "description": "The legendary dark fantasy manga by Kentaro Miura.",
+    "link": "berserk.html"
+  },
+  {
+    "name": "Children Books",
+    "description": "Fun and illustrated books for kids.",
+    "link": "children.html"
+  },
+  {
+    "name": "New Arrivals",
+    "description": "Freshly added books across categories.",
+    "link": "new.html"
+  },
+  {
+    "name": "Tech Books",
+    "description": "Programming, hacking, AI, and more.",
+    "link": "tech.html"
+  }
+]

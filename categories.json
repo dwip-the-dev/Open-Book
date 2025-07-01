@@ -5,6 +5,11 @@
     "link": "new.html"
   },
   {
+    "name": "Mark Twain",
+    "description": "Timeless masterpieces of Mark Twain.",
+    "link": "mark-twain.html"
+  },
+  {
     "name": "Agile Methodologies",
     "description": "Scrum, Kanban, and Agile practice guides.",
     "link": "Agile_Methodologies.html"

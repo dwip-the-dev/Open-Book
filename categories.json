@@ -10,6 +10,11 @@
     "link": "mark-twain.html"
   },
   {
+    "name": "Agatha Christie",
+    "description": "QUEEN of Murder Mystery.",
+    "link": "agatha-christie.html"
+  },
+  {
     "name": "Agile Methodologies",
     "description": "Scrum, Kanban, and Agile practice guides.",
     "link": "Agile_Methodologies.html"
